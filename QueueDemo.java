@@ -49,7 +49,7 @@ class queue
             for(int i=0;i<count;i++)
             {
                 int index=(front+1)%maxsize;
-                System.out.println(queueArray[i]+" remains..");
+                System.out.println(queueArray[index]+" remains..");
             }
         }
     }
